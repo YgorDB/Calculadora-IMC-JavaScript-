@@ -1,0 +1,50 @@
+#box {
+    text-align: center;
+    border: 2px solid;
+    width: 300px;
+    /**/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#Rst {
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 60px;
+    /**/
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+#Resultado {
+    font-size: 25px;
+}
+
+#bar-peso,
+#bar-altura {
+    border: 2px solid;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    width: 200px;
+}
+
+label {
+    font-size: 30px;
+    position: relative;
+    right: 30px;
+}
+
+#btn-env {
+    font-size: 22px;
+    background-color: white;
+}
+
+#btn-env:hover {
+    transform: translateY(-5px);
+    transition-duration: 300ms;
+}
